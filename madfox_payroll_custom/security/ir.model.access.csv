@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_madfox_payroll_custom_madfox_payroll_custom,madfox_payroll_custom.madfox_payroll_custom,model_madfox_payroll_custom_madfox_payroll_custom,base.group_user,1,1,1,1

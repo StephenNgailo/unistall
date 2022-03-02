@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+   <record id="payroll_normal_form_view1" model="ir.ui.view">
+        <field name="name">hr.payslip.form1</field>
+        <field name="model">hr.payslip</field>
+        <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form" />
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+               <!-- CUSTOMIZATIONS -->
+            
+            <field name="number" position="after">
+                    <field name="bank_loan"/> 
+                    <field name="Adv_salary"/> 
+                    <field name="cmp_loan"/> 
+            </field>
+        </field>
+    </record>
+  </data>
+</odoo>
